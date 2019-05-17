@@ -1,0 +1,19 @@
+{
+  "name": "airlines-reservation",
+  "version": "1.0.0",
+  "description": "Airline reservation service UI",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "praveen.baregala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "jade": "^1.11.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}

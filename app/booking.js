@@ -1,0 +1,8 @@
+$(function(){
+
+$("tr").click(function(){
+		
+});
+
+})
+ 

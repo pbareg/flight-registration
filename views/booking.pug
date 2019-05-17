@@ -1,0 +1,40 @@
+html
+  head
+    title Airlines Reservation system
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+    script(src='https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js', type='text/javascript')
+    link(href='https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css', rel='stylesheet', type='text/css')
+  body
+    .container
+     div
+      .text-center
+       Online Booking System
+     form(id="booking" action="/booking" method="post")
+      div.col-lg-4.offset-lg-4.col-md-6.offset-lg-3.col-sm-8.offset-sm-2.col-xs-10.offset-xs-1
+       
+       div.form-group
+        label="Email : "
+        input.form-control(type="email",name="email")
+       div.form-group
+        label="ClassType : "
+        input.form-control(name="class")
+       div.form-group
+        label="From : "
+        input.form-control(name="from")
+       div.form-group
+        label="Destination : "
+        input.form-control(name="destination")
+       div.form-group
+        label="Number Of People : "
+        input.form-control(type="number",name="noPeople")
+       div.form-group
+        label="TotalFare : "
+        input.form-control(type="number",name="totalfare")       
+       div.form-group
+        input.btn.btn-block.btn-primary(type="submit", value="Book Ticket")
+
+         
+      
